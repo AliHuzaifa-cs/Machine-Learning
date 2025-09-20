@@ -7,7 +7,10 @@ Each folder is dedicated to **one algorithm**, with:
 - 📊 Practice examples  
 - 📝 Notes & explanations  
 
+---
+
 ## 📂 Repository Structure  
+
 
 ML-Algorithms/
 │
@@ -27,6 +30,9 @@ ML-Algorithms/
 │ └── README.md
 │
 └── ...
+
+
+---
 
 ## 🎯 Goals of this Repository  
 - Understand ML algorithms **from scratch** ✍️  
@@ -62,7 +68,6 @@ ML-Algorithms/
 This is mainly for my practice, but feel free to fork, suggest improvements, or open issues.  
 
 ---
-
 ## 📬 Contact  
 If you find this helpful or want to collaborate:  
 - GitHub: [your_profile]  
