@@ -9,27 +9,23 @@ Each folder is dedicated to **one algorithm**, with:
 
 ---
 
-## 📂 Repository Structure  
+## 📂 Repository Structure
 
+- ML-Algorithms/  
+  - 📁 Linear_Regression/  
+    - 📄 linear_regression.py  
+    - 📒 linear_regression.ipynb  
+    - 📘 README.md  
+  - 📁 Logistic_Regression/  
+    - 📄 logistic_regression.py  
+    - 📒 logistic_regression.ipynb  
+    - 📘 README.md  
+  - 📁 Decision_Trees/  
+    - 📄 decision_tree.py  
+    - 📒 decision_tree.ipynb  
+    - 📘 README.md  
+  - ...
 
-ML-Algorithms/
-│
-├── Linear_Regression/
-│ ├── linear_regression.py
-│ ├── linear_regression.ipynb
-│ └── README.md
-│
-├── Logistic_Regression/
-│ ├── logistic_regression.py
-│ ├── logistic_regression.ipynb
-│ └── README.md
-│
-├── Decision_Trees/
-│ ├── decision_tree.py
-│ ├── decision_tree.ipynb
-│ └── README.md
-│
-└── ...
 
 
 ---
