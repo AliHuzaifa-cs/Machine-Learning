@@ -66,5 +66,6 @@ This is mainly for my practice, but feel free to fork, suggest improvements, or 
 ---
 ## 📬 Contact  
 If you find this helpful or want to collaborate:  
-- GitHub: [your_profile]  
-- LinkedIn: [your_profile]  
+- GitHub: [AliHuzaifa-cs](https://github.com/AliHuzaifa-cs)  
+- LinkedIn: [Ali Huzaifa](https://www.linkedin.com/in/ali-huzaifa-cs/)  
+ 
