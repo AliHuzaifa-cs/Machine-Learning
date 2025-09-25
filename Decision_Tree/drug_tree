@@ -1,0 +1,25 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<Na_to_K &le; 14.829<br/>entropy = 1.923<br/>samples = 160<br/>value = [17, 13, 11, 43, 76]<br/>class = 4>, fillcolor="#f8c7ed"] ;
+1 [label=<BP &le; 0.5<br/>entropy = 1.762<br/>samples = 84<br/>value = [17, 13, 11, 43, 0]<br/>class = 3>, fillcolor="#b3b2f5"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<Age &le; 50.5<br/>entropy = 0.987<br/>samples = 30<br/>value = [17, 13, 0, 0, 0]<br/>class = 0>, fillcolor="#f9e1d0"] ;
+1 -> 2 ;
+3 [label=<entropy = 0.0<br/>samples = 17<br/>value = [17, 0, 0, 0, 0]<br/>class = 0>, fillcolor="#e58139"] ;
+2 -> 3 ;
+4 [label=<entropy = 0.0<br/>samples = 13<br/>value = [0, 13, 0, 0, 0]<br/>class = 1>, fillcolor="#7be539"] ;
+2 -> 4 ;
+5 [label=<BP &le; 1.5<br/>entropy = 0.729<br/>samples = 54<br/>value = [0, 0, 11, 43, 0]<br/>class = 3>, fillcolor="#6e6cec"] ;
+1 -> 5 ;
+6 [label=<Cholesterol &le; 0.5<br/>entropy = 0.999<br/>samples = 23<br/>value = [0, 0, 11, 12, 0]<br/>class = 3>, fillcolor="#efeffd"] ;
+5 -> 6 ;
+7 [label=<entropy = 0.0<br/>samples = 11<br/>value = [0, 0, 11, 0, 0]<br/>class = 2>, fillcolor="#39e5c5"] ;
+6 -> 7 ;
+8 [label=<entropy = 0.0<br/>samples = 12<br/>value = [0, 0, 0, 12, 0]<br/>class = 3>, fillcolor="#3c39e5"] ;
+6 -> 8 ;
+9 [label=<entropy = 0.0<br/>samples = 31<br/>value = [0, 0, 0, 31, 0]<br/>class = 3>, fillcolor="#3c39e5"] ;
+5 -> 9 ;
+10 [label=<entropy = 0.0<br/>samples = 76<br/>value = [0, 0, 0, 0, 76]<br/>class = 4>, fillcolor="#e539c0"] ;
+0 -> 10 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
